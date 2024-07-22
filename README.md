@@ -2,6 +2,9 @@
 ## Overview
 The Online Music Subscription Application is a cloud-based web application that allows users to query, subscribe, and manage music subscriptions. The application leverages various AWS services to ensure a seamless, secure, and scalable user experience.
 
+![image](https://github.com/user-attachments/assets/aa96cb70-c489-4b4c-9fd7-1ddc0ac40e41)
+
+
 ## Features
 - **User Authentication and Registratio**n: Secure login and registration system with credential storage in DynamoDB.
 - **Music Subscription Management**: Allows users to query music by title, artist, or year, and manage their subscriptions.
