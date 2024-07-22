@@ -13,7 +13,6 @@ const Register = () => {
     event.preventDefault();
 
     try {
-      //const hashedPassword = await bcrypt.hash(password, 10);
       const formData = {
         email: email,
         user_name: username,

@@ -12,25 +12,7 @@ const NavBar = ({ username, handleLogout }) => {
   const handleLoginClick = () => {
     navigate("/login"); // Redirect to login page
   };
-  //   return (
-  //     <Navbar bg="light" expand="lg">
-  //       <Navbar.Brand href="#home">Music Subscription Service</Navbar.Brand>
-  //       <Nav className="ml-auto"></Nav>
-  //       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  //       <Navbar.Collapse id="basic-navbar-nav">
-  //         <Nav className="ml-auto">
-  //           {username !== "Guest" && (
-  //             <Nav.Item>
-  //               <Button variant="outline-secondary" onClick={handleLogoutClick}>
-  //                 Logout
-  //               </Button>
-  //             </Nav.Item>
-  //           )}
-  //         </Nav>
-  //       </Navbar.Collapse>
-  //     </Navbar>
-  //   );
-  // };
+
   return (
     <Navbar bg="light" expand="lg">
       <Container>

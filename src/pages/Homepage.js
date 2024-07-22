@@ -170,9 +170,6 @@ const HomePage = () => {
     <div>
       <NavBar username={username} handleLogout={handleLogout} />
       <div className="text-center">
-        {/* <h1 className="display-6 mt-5">
-          Welcome, <span>{username}</span>
-        </h1> */}
         {username !== "goose" && (
           <>
             <div className="mt-5 mb-5" id="subscriptionsSection">
